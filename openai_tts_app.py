@@ -6,7 +6,7 @@ import os
 
 # --- OpenAI and Asynchronous Imports ---
 from openai import AsyncOpenAI, OpenAI
-from openai.types.audio import AudioSpeechResponse
+#from openai.types.audio import AudioSpeechResponse
 # We will use a synchronous client for simplicity in the non-streaming mode
 # Async is tricky to run directly inside Streamlit's main thread.
 
