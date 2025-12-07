@@ -1,3 +1,4 @@
 streamlit
-openai
-#pydub
+TTS
+numpy
+scipy
