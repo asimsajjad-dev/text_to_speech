@@ -13,7 +13,9 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code
+# Ensure all your Python code is now saved as 'openai_tts_app.py'
 COPY . /app
 
 # Command to run the Gradio application
-CMD ["python", "app.py"]
+# This MUST match the name of your main Python file
+CMD ["python", "openai_tts_app.py"]
