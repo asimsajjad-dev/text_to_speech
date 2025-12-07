@@ -1,4 +1,5 @@
-streamlit
+gradio
 TTS
 numpy
 scipy
+pydub
