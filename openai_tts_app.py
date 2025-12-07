@@ -1,8 +1,8 @@
 import streamlit as st
 import asyncio
-import io
+# import io
 import os
-from pydub import AudioSegment
+#from pydub import AudioSegment
 
 # --- OpenAI and Asynchronous Imports ---
 from openai import AsyncOpenAI, OpenAI
